@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor=#f7f8fa>
+    <center>
+        <h1> Monitor Searhcing</h1>
+
+        <form method="POST", action="{{url_for('main')}}">
+           <b> 화면크기 :  <input type="text", name='a', placeholder="27 or 32 (인치)"> <br><br>
+            최대 해상도 :  <input type="text", name='b', placeholder="UHD or QHD or FHD"> <br><br>
+            최대 주사율 :  <input type="text", name='c', placeholder="원하는 주사율(Hz)를 입력"> <br><br>
+            패널 : <input type="text", name='d', placeholder="원하는 패널 종류를 입력 (IPS or VA or TN)"> <br><br>
+            곡면형 : <input type="text", name='e', placeholder="커브드 or 평면"> <br><br>
+            응답속도 : <input type="text", name='f', placeholder="0.1 ~ 0.5 (ms)"> <br><br>
+            <br></b>
+            <input type="submit" , value='Search!' >
+        </form>
+
+    </center>
+
+</body>
+</html>
